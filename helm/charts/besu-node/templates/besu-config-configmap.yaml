@@ -90,7 +90,7 @@ data:
     {{ else }}
     privacy-public-key-file="{{ .Values.node.besu.privacy.pubkeysPath }}/{{ .Values.node.besu.privacy.pubkeyFile }}"
     {{ end }}
-    privacy-onchain-groups-enabled={{ .Values.node.besu.privacy.onchainGroupsEnabled }}
+    
     {{ end }}
 
     {{ if  .Values.node.besu.metrics.enabled -}}
